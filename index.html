@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <!-- 
+        table : bảng
+        tr: hàng
+        td: cột
+        th: cột in đậm
+        rowpan: gộp hàng
+        colspan: gộp cột
+        caption : mô tả của bảng
+        cellpadding : kích thước của bảng
+        cellspacing : kích thước của viền
+     -->
+   <table border="1" >
+    <caption>Rikkei Academy - Order</caption>
+    <tr>
+        <th rowspan="10">RA</th>
+        <th style="text-align: left;">Order no:</th>
+        <td colspan="3">#RA001</td>
+    </tr>
+    <tr>
+        <th style="text-align: left;">Order Date:</th>
+        <td colspan="3">02/12/2022</td>
+    </tr>
+    <tr>
+        <th colspan="4">Customer</th>
+    </tr>
+    <tr>
+        <th style="text-align: left;" >Name:</th>
+        <td colspan="3">NGUYEN VAN A</td>
+    </tr>
+    <tr>
+        <TH style="text-align: left;">Address:</TH>
+        <td colspan="3">7th floor, Tower A, Song Da building, Nam Tu Liem district, Hanoi</td>
+    </tr>
+    <tr>
+        <th colspan="4">Order Detail</th>
+    </tr>
+    <tr>
+        <td style="text-align: center;">1</td>
+        <td>HTML</td>
+        <td>Book</td>
+        <td style="text-align: right;">10.00$</td>
+    </tr>
+    <tr>
+        <td style="text-align: center;">2</td>
+        <td>CSS</td>
+        <td>Book</td>
+        <td style="text-align: right;">12.00$</td>
+    </tr>
+    <tr>
+        <td style="text-align: center;">3</td>
+        <td>Javascript</td>
+        <td>DVD</td>
+        <td style="text-align: right;">50.00$</td>
+    </tr>
+    <tr style="text-align: right;">
+        <th colspan="3"> Total:</th>
+        <td >72.00$</td>
+    </tr>
+
+   <table border="1px" width="50%"height="50%" style="text-align: ;">
+    <tr>
+        <td colspan="5">1</td>
+    </tr>
+    <tr>
+        <td colspan="3">2</td>
+        <td colspan="2" rowspan="3">3</td>
+    </tr>
+    <tr>
+        <td rowspan="3">4</td>
+        <td colspan="2">5</td>
+    </tr>
+    <tr>
+        <td rowspan="2">8</td>
+        <td rowspan="2">9</td>
+    </tr>
+    <tr>
+        <td>6</td>
+        <td>7</td>
+    </tr>
+   </table>
+</body>
+
+</html>
